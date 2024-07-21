@@ -16,7 +16,7 @@ def main():
     elif user_input == "2":
         user_choice_txt()
     elif user_input == "3":
-        user_input = input("Какой файл вы отчистить?\n"
+        user_input = input("Какой файл отчистить?\n"
                            "json-файл, введите 1\n"
                            "txt-файл, введите 2\n")
         if user_input == "1":
