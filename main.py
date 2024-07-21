@@ -27,7 +27,6 @@ def main():
             deleter = TXTSaver(VACANCIES_PATH_TXT)
             deleter.del_data()
             print("Данные удалены!")
-    return
 
 
 if __name__ == '__main__':
