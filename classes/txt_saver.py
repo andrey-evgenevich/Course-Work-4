@@ -5,9 +5,9 @@ class TXTSaver(Saver):
     """
     Класс для записи в txt-файл
     """
+
     def __init__(self, filename):
         super().__init__(filename)
-
 
     def write_data(self, vacancies):
         """
