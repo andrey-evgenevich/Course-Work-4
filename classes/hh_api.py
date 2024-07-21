@@ -10,7 +10,6 @@ class HeadHunterAPI(GetVacanciesAPI):
     """
     def __init__(self):
         self.url = "https://api.hh.ru/vacancies"
-        self.headers = {"User-Agent": "HH-User-Agent"}
         self.params = {"text": "", "per_page": "", "only_with_salary": True}
 
     def get_response(self, keyword, per_page) -> Response:
